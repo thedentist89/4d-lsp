@@ -1,0 +1,12 @@
+{
+  "name": "4d-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "4d-server": "./index.js"
+  },
+  "dependencies": {
+    "vscode-languageserver": "^6.1.1",
+    "vscode-languageserver-textdocument": "^1.0.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "4d-ls",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "cd client && npm install && cd ../server && npm install && sudo npm link && cd .."
+  },
+  "keywords": [],
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "activationEvents": [
+    "onLanguage:4d"
+  ],
+  "main": "./client/extension.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
